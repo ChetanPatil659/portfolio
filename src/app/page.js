@@ -8,7 +8,7 @@ import 'remixicon/fonts/remixicon.css';
 import Tecnologies from "./components/tecnologies";
 // import gsap from "gsap";
 import { useEffect, useRef } from "react";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import Link from "next/link";
 
 
@@ -21,7 +21,7 @@ export default function Home() {
 
     <>
       {/* <Cursor /> */}
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={30}
         outerSize={25}
         color='255, 255, 255'
@@ -47,7 +47,7 @@ export default function Home() {
           }
         ]}
         
-      />
+      /> */}
 
       {/* <Cursor cursorBackgrounColor='#cfcfcf' isGelly={true} /> */}
 
