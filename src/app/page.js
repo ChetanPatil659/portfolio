@@ -8,7 +8,6 @@ import 'remixicon/fonts/remixicon.css';
 import Tecnologies from "./components/tecnologies";
 // import gsap from "gsap";
 import { useEffect, useRef } from "react";
-// import AnimatedCursor from "react-animated-cursor";
 import Link from "next/link";
 
 
@@ -20,43 +19,13 @@ export default function Home() {
   return (
 
     <>
-      {/* <Cursor /> */}
-      {/* <AnimatedCursor
-        innerSize={30}
-        outerSize={25}
-        color='255, 255, 255'
-        outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={5}
-        innerStyle={{
-          mixBlendMode: 'exclusion'
-        }}
-        clickables={[
-          'Project',
-          'a',
-          {
-            target: 'img',
-            options: {
-              innerSize: 0,
-              outerSize: 0,
-              color: '0, 0, 0',
-              outerAlpha: 0,
-              innerScale: 0,
-              outerScale: 0
-            }
-          }
-        ]}
-        
-      /> */}
 
-      {/* <Cursor cursorBackgrounColor='#cfcfcf' isGelly={true} /> */}
-
-      <div className="bg-zinc-950 text-gray-200  h-screen">
+      <div className="bg-zinc-950 text-gray-200  h-screen" >
         <Nav />
-        <div className="lg:py-20 lg:px-20 sm:py-20 sm:px-20 h-4/5 flex flex-col justify-between">
+        <div className="lg:py-20 lg:px-20 sm:py-20 sm:px-20 h-4/5 flex flex-col">
           <div className="font-semibold tracking-wider text-gray-400
              lg:text-9xl
-             flex flex-col gap-10
+             flex flex-col gap-7
             text-xl py-20 px-8 text-left
            "
           ><div ref={(el) => text = el}>

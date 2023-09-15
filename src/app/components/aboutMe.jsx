@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Me from "@/app/images/Me.png"
+import Link from "next/link";
 
 const AboutMe = () => {
     return (
@@ -22,7 +23,7 @@ const AboutMe = () => {
                     web development trends to deliver top-notch solutions. Let's work together 
                     to create innovative and engaging digital experiences.
                 </h4>
-                <a data-v-6a4e710f="" href="mailto:patilchetan659@gmail.com" className="text-gray-50 bg-neutral-600 p-2 w-fit rounded-3xl px-4">contact me</a>
+                <Link data-v-6a4e710f="" href="mailto:patilchetan659@gmail.com" className="text-gray-50 bg-neutral-600 p-2 w-fit rounded-3xl px-4 font-extralight">Contact Me</Link>
             </div>
 
         </div>
