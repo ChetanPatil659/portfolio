@@ -53,7 +53,8 @@ export default function Home() {
         <div className="lg:px-32 lg:ml-16 ml-10 text-neutral-500 text-xl"><span>P</span>rojects -</div>
         <div>
         <Project name='ChatBook' link='https://chat-b00k.netlify.app/'/>
-        <Project name='We Think Elastic' link='https://we-think-elastic.vercel.app/'/>
+        {/* <Project name='We Think Elastic' link='https://we-think-elastic.vercel.app/'/> */}
+        <Project name='Study Notion' link='https://study-n0ti0n.vercel.app/'/>
         </div>
       </div>
 
